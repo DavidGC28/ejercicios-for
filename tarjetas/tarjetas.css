@@ -75,8 +75,50 @@ body {
   background-color: aquamarine;
   transform: scale(1.05);
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+
 }
 
+
+/* CONTENEDOR DE INPUTS */
+.inputs {
+display: flex;
+gap: 15px;
+justify-content: center;
+flex-wrap: wrap;
+}
+/* INPUT BASE */
+.inputs input {
+width: 140px;
+padding: 12px 15px;
+border-radius: 25px;
+
+border: none;
+outline: none;
+font-size: 14px;
+text-align: center;
+font-weight: bold;
+color: #2a5298;
+background: white;
+box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+transition: all 0.25s ease;
+}
+/* PLACEHOLDER */
+.inputs input::placeholder {
+color: #8aa3d0;
+font-weight: normal;
+}
+/* HOVER */
+.inputs input:hover {
+transform: scale(1.05);
+box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+/* FOCUS (cuando escribes) */
+.inputs input:focus {
+box-shadow: 0 0 0 3px rgba(42,82,152,0.3),
+0 8px 20px rgba(0,0,0,0.3);
+transform: scale(1.05);
+}
+Resultado esperado:
 /* TABLET */
 @media (max-width: 768px) {
   .contenedor {

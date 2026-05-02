@@ -8,10 +8,12 @@
   <script src="tarjetas.js" defer></script>
 </head>
 <body>
-
-  <div class="top">
-    <button class="btn" onclick="craerTarjetas() ">Generar</button>
-  </div>
+ <div class="inputs">
+    <input type="number" id="txtDesde" placeholder="Desde">
+    <input type="number" id="txtHasta" placeholder="Hasta">
+    <input type="number" id="txtSalto" placeholder="Salto"> 
+</div>
+<button class="btn" onclick="crearTarjetas()">Generar</button>
 
   <div class="contenedor" id="divTartejas">
     <div class="item">1</div>
