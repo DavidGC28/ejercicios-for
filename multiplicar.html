@@ -3,35 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabla del 3 - Programación</title>
+    <title>Tablas de Multiplicar - David G</title>
     <link rel="stylesheet" href="multiplicar.css">
 </head>
 <body>
  
     <header class="header">
-        <button  class="btn-probar" onclick="generarTablas()">PROBAR</button>
+        <div class="controles">
+        
+            <input type="number" id="txtTabla" placeholder="Número" class="input-tabla">
+            <button class="btn-probar" onclick="generarTablas()">GENERAR</button>
+        </div>
     </header>
  
     <main class="container">
-        <h1>Tabla del 3</h1>
+    
+        <h1 id="tituloTabla">Tablas de Multiplicar</h1>
  
- 
-       
         <div class="tabla-container" id="contenedorTabla">
-            <div class="fila"><span>3 x 1</span> <span>=</span> <span>3</span></div>
-            <div class="fila"><span>3 x 2</span> <span>=</span> <span>6</span></div>
-            <div class="fila"><span>3 x 3</span> <span>=</span> <span>9</span></div>
-            <div class="fila"><span>3 x 4</span> <span>=</span> <span>12</span></div>
-            <div class="fila"><span>3 x 5</span> <span>=</span> <span>15</span></div>
-            <div class="fila"><span>3 x 6</span> <span>=</span> <span>18</span></div>
-            <div class="fila"><span>3 x 7</span> <span>=</span> <span>21</span></div>
-            <div class="fila"><span>3 x 8</span> <span>=</span> <span>24</span></div>
-            <div class="fila"><span>3 x 9</span> <span>=</span> <span>27</span></div>
-            <div class="fila"><span>3 x 10</span> <span>=</span> <span>30</span></div>
+        
+            <p style="color: gray;">Ingresa un número y presiona generar...</p>
         </div>
-         <h3>Creado por David G</h3>
+
+        <footer class="footer">
+            <h3>Creado por David G</h3>
+        </footer>
     </main>
- <script src="multiplicar.js"></script>
+
+    <script src="multiplicar.js"></script>
 </body>
 </html>
- 
