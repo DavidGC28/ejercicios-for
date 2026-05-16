@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas de Multiplicar - David G</title>
+    <link rel="stylesheet" href="multiplicar.css">
+</head>
+<body>
+ 
+    <header class="header">
+        <div class="controles">
+        
+            <input type="number" id="txtTabla" placeholder="Número" class="input-tabla">
+            <button class="btn-probar" onclick="generarTablas()">GENERAR</button>
+        </div>
+    </header>
+ 
+    <main class="container">
+    
+        <h1 id="tituloTabla">Tablas de Multiplicar</h1>
+ 
+        <div class="tabla-container" id="contenedorTabla">
+        
+            <p style="color: gray;">Ingresa un número y presiona generar...</p>
+        </div>
+
+        <footer class="footer">
+            <h3>Creado por David G</h3>
+        </footer>
+    </main>
+
+    <script src="multiplicar.js"></script>
+</body>
+</html>
